@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #ffffff;
+}
+:root {
+    --color1: #060606;
+    --color2: #141f24;
+    --color3:  #2f404b;
+    --color4: #4c6077;
+    --color5:  #688caa;
+}
+body{
+    width: 100%;
+    display: flex;
+justify-content: center;
+
+    background-color:  var(--color2); 
+    margin: 0px;
+    padding-top: 0px;
+}
+
+main{
+    
+    width: 1384px ;
+
+    height: 100vh;
+    display: flex;
+}
+section{
+    border-right:  2px solid black;
+    margin-right: 70px;
+    width: 210px;
+    padding-left: 20px;
+    background-color: var(--color2) ;
+}
+img{
+    width: 100px;
+}
+
+.article-juego-random{
+width: 1000px;
+display: flex;
+justify-content: space-between;
+
+
+
+}
+.img-carta-maquina , .img-carta-jugador{
+    border-radius: 30px;
+    background-color: #ffffff;
+    margin-left: 15px;
+    padding: 10px;
+    width: 220px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-carta-random {
+    border-radius: 30px;
+background-color: #ffffff;
+margin-left: 15px;
+padding: 10px;
+width: 320px;
+margin: 0 auto;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.juego-carta-presentacion , .juego-jugador , .juego-maquina{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+.section-humano{
+    margin-bottom: 40px; 
+}
+
+.boton{
+    width: 170px;
+  margin-top: 20px;
+     font-size: 100%;
+     padding: 20px;
+     border-radius: 40px;
+     background-color: var(--color1);
+     text-align: center;
+ }
+ 
+ .boton:hover{
+    
+     background-color: var(--color4);
+ }
+ 
+ .article-juego-spans{
+    margin-top: 10px;
+     width: 100%;
+     justify-content: space-evenly;
+     display: flex;
+ 
+ 
+ }
+ .ganado{
+     font-size: 100%;
+     padding: 40px;
+     border-radius: 40px;
+     background-color: rgb(112, 255, 136);
+ }
+ 
+ .perido{
+     font-size: 150%;
+     padding: 40px;
+     border-radius: 40px;
+     background-color: red; 
+ }
+ .title{
+     font-size: 100%;
+ }
+ .numbers{
+    font-size: 100%;
+ }
+ 
+ .numbers-jugador , .numbers-maquina , .ronda{
+     font-size:100%;
+ }
+
+ .article-juego-botones{
+    margin-top: 10px;
+    justify-content: space-between;
+ }
